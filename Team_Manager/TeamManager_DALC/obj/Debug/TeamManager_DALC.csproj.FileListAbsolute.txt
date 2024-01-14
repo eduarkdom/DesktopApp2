@@ -1,0 +1,12 @@
+C:\Users\56973\source\repos\Team_Manager\TeamManager_DALC\bin\Debug\TeamManager_DALC.dll.config
+C:\Users\56973\source\repos\Team_Manager\TeamManager_DALC\bin\Debug\TeamManager_DALC.dll
+C:\Users\56973\source\repos\Team_Manager\TeamManager_DALC\bin\Debug\TeamManager_DALC.pdb
+C:\Users\56973\source\repos\Team_Manager\TeamManager_DALC\bin\Debug\EntityFramework.dll
+C:\Users\56973\source\repos\Team_Manager\TeamManager_DALC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\56973\source\repos\Team_Manager\TeamManager_DALC\bin\Debug\EntityFramework.xml
+C:\Users\56973\source\repos\Team_Manager\TeamManager_DALC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\56973\source\repos\Team_Manager\TeamManager_DALC\obj\Debug\TeamManager_DALC.csproj.AssemblyReference.cache
+C:\Users\56973\source\repos\Team_Manager\TeamManager_DALC\obj\Debug\TeamManager_DALC.csproj.CoreCompileInputs.cache
+C:\Users\56973\source\repos\Team_Manager\TeamManager_DALC\obj\Debug\TeamManager_DALC.csproj.CopyComplete
+C:\Users\56973\source\repos\Team_Manager\TeamManager_DALC\obj\Debug\TeamManager_DALC.dll
+C:\Users\56973\source\repos\Team_Manager\TeamManager_DALC\obj\Debug\TeamManager_DALC.pdb

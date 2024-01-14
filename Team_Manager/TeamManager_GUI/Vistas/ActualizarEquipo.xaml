@@ -1,0 +1,79 @@
+﻿<Window x:Class="TeamManager_GUI.Vistas.ActualizarEquipo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TeamManager_GUI.Vistas"
+        mc:Ignorable="d"
+        Title="ActualizarEquipo" Height="500" Width="800">
+    <Window.Resources>
+        <Style x:Key="CommonControlStyle" TargetType="Control">
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Margin" Value="0,0,0,5"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#999999"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="MinHeight" Value="30"/>
+        </Style>
+
+        <Style TargetType="TextBox" BasedOn="{StaticResource CommonControlStyle}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border BorderBrush="#999999" BorderThickness="1" CornerRadius="5">
+                            <ScrollViewer Margin="0" x:Name="PART_ContentHost"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+        <Style TargetType="Button" BasedOn="{StaticResource CommonControlStyle}">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="5">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid x:Name="gActualizarEquipo">
+        <Label x:Name="lblTitulo" Content="Agrega un Equipo" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="24" Margin="0,-5,0,0"/>
+        <StackPanel Margin="209,42,209,16" MaxWidth="500" x:Name="spActualizarEquipo" >
+            <Label Content="Nombre Equipo:" x:Name="lblNombreEquipo"/>
+            <TextBox x:Name="txtNombreEquipo" Margin="0,0,0,5"/>
+
+            <Label Content="Cantidad de Jugadores:" x:Name="lblCantidadJugadores"/>
+            <TextBox x:Name="txtCantidadJugadores" Margin="0,0,0,5" PreviewTextInput="CheckTextInput"/>
+
+            <Label Content="Nombre del DT:" x:Name="lblNombreDT"/>
+            <TextBox x:Name="txtNombreDT"  Margin="0,0,0,5"/>
+
+            <Label Content="Tipo de Equipo:" x:Name="lblTipoEquipo"/>
+            <ComboBox x:Name="cmbTipoEquipo" Margin="0,0,0,5" Height="31" VerticalContentAlignment="Center" IsEditable="false" SelectedIndex="0">
+                <ComboBoxItem Content="Seleccionar" IsEnabled="False" x:Name="cbi1"/>
+                <ComboBoxItem Content="Masculino" x:Name="cbi2"/>
+                <ComboBoxItem Content="Femenino" x:Name="cbi3"/>
+            </ComboBox>
+
+            <Label Content="Capitán del Equipo:" x:Name="lblCapitanEquipo"/>
+            <TextBox x:Name="txtCapitanEquipo" Margin="0,0,0,5"/>
+
+            <StackPanel Orientation="Horizontal" x:Name="spActualizarEquipoCheckBox">
+                <Label x:Name="lblTieneSub21" Content="¿Tiene Sub-21?" Width="93" Margin="0,0,0,5"/>
+                <CheckBox x:Name="chkTieneSub21" Content="" RenderTransformOrigin="3.88,0.606" Padding="4,-1,-2,0" VerticalContentAlignment="Center" Height="25" Width="73" VerticalAlignment="Center" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="10,0,0,0" IsChecked="False"/>
+            </StackPanel>
+
+            <Button x:Name="btnActualizar" Content="Actualizar Equipo" Click="ActualizarEquipo_Click" RenderTransformOrigin="0.5,0.5" FontSize="18" Foreground="White" Margin="0,5,0,0" Background="#FF3F92AE" Padding="2,2,2,2" Grid.IsSharedSizeScope="True" Height="39" VerticalContentAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>

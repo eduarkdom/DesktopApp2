@@ -1,0 +1,25 @@
+﻿<Window x:Class="TeamManager_GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TeamManager_GUI"
+        mc:Ignorable="d"
+        Title="Menu Team Manager" Height="450" Width="800" Activated="Window_Activated">
+    <Grid x:Name="gMenu">
+        <DockPanel x:Name="dpMenuPrincipal" LastChildFill="False">
+            <Menu x:Name="mnPrincipal" DockPanel.Dock="Top" IsMainMenu="true" Height="20" >
+                <MenuItem Header="Administración de Equipos" x:Name="miEquipo">
+                    <MenuItem Header="Agregar" x:Name="miAgregar" Click="AgregarEquipo_Click"/>
+                    <MenuItem Header="Listar todos" x:Name="miListarTodos" Click="ListarEquipos_Click"/>
+                </MenuItem>
+                <MenuItem Header="Reportes" x:Name="optReportes" Click="optReportes_Click"/>
+                <MenuItem Header="Información" x:Name="miInformacion">
+                    <MenuItem Header="Acerca de" x:Name="miAcercaDe" Click="AcercaDe_Click"/>
+                </MenuItem>
+            </Menu>
+            <DataGrid x:Name="dgListadoEquipos" Width="Auto" Height="Auto" IsEnabled="False" DockPanel.Dock="Top"/>
+        </DockPanel>
+    </Grid>
+</Window>
+

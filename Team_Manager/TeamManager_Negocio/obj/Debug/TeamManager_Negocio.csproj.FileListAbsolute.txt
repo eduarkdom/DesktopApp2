@@ -1,0 +1,15 @@
+C:\Users\56973\source\repos\Team_Manager\TeamManager_Negocio\bin\Debug\TeamManager_Negocio.dll.config
+C:\Users\56973\source\repos\Team_Manager\TeamManager_Negocio\bin\Debug\TeamManager_Negocio.dll
+C:\Users\56973\source\repos\Team_Manager\TeamManager_Negocio\bin\Debug\TeamManager_Negocio.pdb
+C:\Users\56973\source\repos\Team_Manager\TeamManager_Negocio\bin\Debug\EntityFramework.dll
+C:\Users\56973\source\repos\Team_Manager\TeamManager_Negocio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\56973\source\repos\Team_Manager\TeamManager_Negocio\bin\Debug\TeamManager_DALC.dll
+C:\Users\56973\source\repos\Team_Manager\TeamManager_Negocio\bin\Debug\TeamManager_DALC.pdb
+C:\Users\56973\source\repos\Team_Manager\TeamManager_Negocio\bin\Debug\TeamManager_DALC.dll.config
+C:\Users\56973\source\repos\Team_Manager\TeamManager_Negocio\bin\Debug\EntityFramework.xml
+C:\Users\56973\source\repos\Team_Manager\TeamManager_Negocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\56973\source\repos\Team_Manager\TeamManager_Negocio\obj\Debug\TeamManager_Negocio.csproj.AssemblyReference.cache
+C:\Users\56973\source\repos\Team_Manager\TeamManager_Negocio\obj\Debug\TeamManager_Negocio.csproj.CoreCompileInputs.cache
+C:\Users\56973\source\repos\Team_Manager\TeamManager_Negocio\obj\Debug\TeamManager_Negocio.csproj.CopyComplete
+C:\Users\56973\source\repos\Team_Manager\TeamManager_Negocio\obj\Debug\TeamManager_Negocio.dll
+C:\Users\56973\source\repos\Team_Manager\TeamManager_Negocio\obj\Debug\TeamManager_Negocio.pdb
